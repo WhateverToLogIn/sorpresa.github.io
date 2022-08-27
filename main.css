@@ -1,0 +1,36 @@
+body {
+    background: #252422;
+}
+
+.caja-de-felicitacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+}
+
+.caja-de-felicitacion p {
+    font-size: 16px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.caja-de-felicitacion button{
+    height: 40px;
+    width: 140px;
+    background-color: white;
+    border-style: none;
+    border-radius: 5px;
+    font-size: 13px;
+    
+}
+
+.caja-de-felicitacion button:hover{
+    transition: .3s all ease-out;
+    background-color: #252422;
+    color: white;
+    border: 1px solid white;    
+}
